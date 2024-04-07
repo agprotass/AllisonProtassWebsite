@@ -1,0 +1,63 @@
+.decor-nav-container {
+  position: relative; /* Ensure proper positioning for its children */
+}
+
+.odd-shaped-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.odd-shaped-button img {
+  width: 100px;
+  height: auto;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -15%);
+}
+
+.bookshelf-button img {
+  width: auto;
+  height: auto;
+  display: block;
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-240%, -125%);
+}
+
+.poster-button img {
+  width: auto;
+  height: auto;
+  display: block;
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-250%, -275%);
+}
+
+.desk-button img {
+  width: auto;
+  height: auto;
+  display: block;
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -130%);
+}
+
+.work-button img {
+  width: auto;
+  height: auto;
+  display: block;
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(55%, -125%);
+}

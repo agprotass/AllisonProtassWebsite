@@ -1,0 +1,8 @@
+.edu-component {
+  text-align: center;
+  height: 20vh; /* Adjust this value to center vertically within the viewport */
+}
+
+h1 {
+  text-align: center;
+}

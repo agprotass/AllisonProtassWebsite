@@ -1,0 +1,10 @@
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh; /* Adjust this value to center vertically within the viewport */
+}
+
+.content {
+  text-align: center;
+}

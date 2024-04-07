@@ -1,0 +1,15 @@
+.custom-carousel {
+    width: 400px;
+    /* Set the width */
+    height: 300px;
+    /* Set the height */
+}
+
+.custom-carousel .custom-carousel-image {
+    max-width: 100%;
+    /* Ensure images don't exceed carousel width */
+    max-height: 100%;
+    /* Ensure images don't exceed carousel height */
+    object-fit: contain;
+    /* Maintain aspect ratio */
+}
